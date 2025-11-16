@@ -1,0 +1,3 @@
+x = float(input("Nhập độ C: "))
+y= (x*9/5)+32
+print("kết quả độ F là:",y)
