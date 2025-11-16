@@ -1,0 +1,12 @@
+try:
+    x = float(input("Nhập chiều dài (x): "))
+    y = float(input("Nhập chiều rộng (y): "))
+
+    if x > 0 and y > 0:
+        print(f"Chu vi là: {(x + y) * 2}")
+        print(f"Diện tích là: {x * y}")
+    else:
+        print("LỖI: x và y phải lớn hơn 0.")
+
+except ValueError:
+    print("LỖI: Bạn phải nhập số.")
