@@ -1,0 +1,9 @@
+#kiemtradutuoixemphim.py
+x = int(input("Vui lòng nhập tuổi của bạn (x): "))
+y = 18
+print("Tuổi của bạn (x):", x)
+print("Tuổi quy định (y):", y)
+if x >= y:
+    print("Kết quả: Bạn ĐƯỢC xem phim.")
+else:
+    print("Kết quả: Bạn KHÔNG đủ tuổi xem phim.")
