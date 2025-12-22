@@ -1,0 +1,7 @@
+def kiem_tra_so_chan_le(so):
+    if so % 2 == 0:
+      return "so chan:"
+    else:
+      return("so le:")
+loai_so =kiem_tra_so_chan_le(float(input("nhap so:")))
+print(f"so la:{loai_so}")
