@@ -1,0 +1,17 @@
+import math  
+x = float(input("Nhập giá trị x: "))
+n = int(input("Nhập so can n: "))
+S1 = 0 
+S2 = 1
+
+for i in range(n):
+    S1 = math.sqrt(x + S1)
+
+print(f"Giá trị biểu thức 1 là: {S1}")
+
+for i in range(1, n + 1):
+    tu_so = x ** i      
+    mau_so = i + 1     
+    S2 = S2 + (tu_so / mau_so)
+
+print(f"Giá trị biểu thức 2 là: {S2}")
